@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="เว็บไซต์ประวัติส่วนตัวของ SITTHIPHONG KAMON (KHAWOAT)">
+  <title>SITTHIPHONG KAMON | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a class="logo" href="#home">KHAWOAT.</a>
+      <button class="menu-btn" id="menuBtn" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">หน้าแรก</a>
+        <a href="#about">เกี่ยวกับฉัน</a>
+        <a href="#education">การศึกษา</a>
+        <a href="#hobbies">งานอดิเรก</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">Personal Portfolio</span>
+        <h1>HELLO,<br> I'M <span>KHAWOAT</span></h1>
+        <p>
+          ผมชื่อ SITTHIPHONG KAMON นักเรียนสาขาเทคโนโลยีสารสนเทศ
+          วิทยาลัยเทคนิคศรีสะเกษ ยินดีต้อนรับเข้าสู่เว็บไซต์ประวัติส่วนตัวของผม
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#about">รู้จักฉัน</a>
+          <a class="btn outline" href="#education">ประวัติการศึกษา</a>
+        </div>
+      </div>
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/profile.png" alt="รูปโปรไฟล์ของ SITTHIPHONG KAMON">
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">01 / About me</span>
+          <h2>เกี่ยวกับฉัน</h2>
+          <p>ข้อมูลส่วนตัวและสิ่งที่ผมสนใจ</p>
+        </div>
+        <div class="about-grid">
+          <article class="card">
+            <h3>Personal Information</h3>
+            <dl class="info-list">
+              <dt>ชื่อ-นามสกุล</dt><dd>SITTHIPHONG KAMON</dd>
+              <dt>ชื่อเล่น</dt><dd>KHAWOAT</dd>
+              <dt>อายุ</dt><dd>17 ปี</dd>
+              <dt>วันเกิด</dt><dd>7 มิถุนายน 2009</dd>
+              <dt>จังหวัด</dt><dd>ศรีสะเกษ</dd>
+            </dl>
+          </article>
+          <article class="card">
+            <h3>My Introduction</h3>
+            <p>
+              สวัสดีครับ ผมชื่อสิทธิพงษ์ กมล ชื่อเล่นข้าวโอ๊ต
+              ปัจจุบันกำลังศึกษาอยู่ระดับประกาศนียบัตรวิชาชีพ ชั้นปีที่ 2
+              สาขาวิชาเทคโนโลยีสารสนเทศ
+            </p>
+            <p class="goal-note">
+              เป้าหมายในอนาคต: สามารถแก้ไขข้อความส่วนนี้ให้เป็นเป้าหมายของคุณได้
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">02 / Education</span>
+          <h2>ประวัติการศึกษา</h2>
+          <p>เส้นทางการเรียนรู้ของผม</p>
+        </div>
+        <article class="card education">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <h3>Sisaket Technical College</h3>
+            <p>ประกาศนียบัตรวิชาชีพ (ปวช.2)</p>
+            <p>สาขาวิชา Information Technology</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">03 / Hobbies</span>
+          <h2>งานอดิเรก</h2>
+          <p>กิจกรรมที่ชอบทำในเวลาว่าง</p>
+        </div>
+        <div class="hobbies">
+          <div class="hobby"><span class="emoji">🎮</span><strong>เล่นเกม ROV</strong></div>
+          <div class="hobby"><span class="emoji">🎬</span><strong>ดูหนัง</strong></div>
+          <div class="hobby"><span class="emoji">🎧</span><strong>ฟังเพลง</strong></div>
+          <div class="hobby"><span class="emoji">✈️</span><strong>ไปเที่ยว</strong></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> SITTHIPHONG KAMON · Personal Portfolio</div>
+  </footer>
+  <button class="back-top" id="backTop" aria-label="กลับขึ้นด้านบน">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
